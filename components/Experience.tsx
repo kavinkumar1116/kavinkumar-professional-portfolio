@@ -21,7 +21,7 @@ export default function Experience() {
                 Full-time - 2023 to 2026
               </div>
               <h3 className="text-2xl font-black text-slate-950 dark:text-white">
-                Fill Stack Web Developer
+                Full Stack Web Developer
               </h3>
               <p className="mt-2 text-lg font-semibold text-slate-700 dark:text-slate-300">
                 Fues Technologies Solution
