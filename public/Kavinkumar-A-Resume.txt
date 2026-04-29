@@ -1,0 +1,23 @@
+Kavinkumar A
+Full Stack Developer | BigCommerce Product Developer | SaaS Builder
+
+Phone: 7708027444
+Email: akavinkumarit1116@gmail.com
+GitHub: https://github.com/kavinkumar1116
+LinkedIn: https://www.linkedin.com/in/kavinkumar1116/
+
+Professional Summary
+Full-Stack Developer with 3+ years of experience specializing in scalable SaaS applications and high-performance BigCommerce product solutions. Focused on performance, usability, and business impact. Currently working on BigCommerce SaaS products and theme libraries, improving merchant experience and optimizing eCommerce workflows.
+
+Experience
+Arizon Digital USA - Digital Commerce Experts
+BigCommerce Developer, Full-time
+
+Core Skills
+React.js, Next.js, JavaScript, PHP, PostgreSQL (pgAdmin), MSSQL, GraphQL, AWS Lambda, AWS CloudWatch
+
+Selected Projects
+HR Management Portal: RBAC system, employee management, leave and attendance modules, real-time dashboards.
+Inventory Management System: Real-time stock tracking, low-stock alerts, reporting dashboard, approval workflows.
+E-commerce Website: Product listing and filtering, cart and checkout, Razorpay, GPay, PhonePe payment integrations, admin dashboard.
+BigCommerce SaaS Development: SaaS product enhancements, theme development, merchant experience optimization.

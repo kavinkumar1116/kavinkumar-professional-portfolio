@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #f8fbff;
+}
+
+.dark body {
+  background: #050816;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-image:
+    linear-gradient(rgba(15, 23, 42, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.035) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: linear-gradient(to bottom, black, transparent 78%);
+  pointer-events: none;
+}
+
+.dark body::before {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+}
+
+.noise {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.38;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(15, 23, 42, 0.12) 0.7px, transparent 0.7px);
+  background-size: 4px 4px;
+  mix-blend-mode: soft-light;
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.22);
+}
+
+@layer components {
+  .section-shell {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold tracking-normal text-slate-950 dark:text-white sm:text-4xl lg:text-5xl;
+  }
+
+  .section-kicker {
+    @apply mb-3 text-sm font-semibold uppercase tracking-[0.22em] text-blue-600 dark:text-sky-300;
+  }
+
+  .glass-panel {
+    @apply border border-white/60 bg-white/[0.72] shadow-card backdrop-blur-xl dark:border-white/10 dark:bg-white/[0.06];
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-500 bg-clip-text text-transparent dark:from-sky-300 dark:via-blue-400 dark:to-teal-200;
+  }
+}
