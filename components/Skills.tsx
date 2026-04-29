@@ -2,12 +2,15 @@
 
 import { motion } from "framer-motion";
 import {
+  SiGit,
+  SiGithub,
   SiGraphql,
   SiJavascript,
   SiNextdotjs,
   SiPhp,
   SiPostgresql,
-  SiReact
+  SiReact,
+  SiVercel
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa";
 import { Activity, Database } from "lucide-react";
@@ -21,8 +24,11 @@ const skills = [
   { name: "PostgreSQL (pgAdmin)", icon: SiPostgresql, color: "text-blue-700 dark:text-blue-300" },
   { name: "MSSQL", icon: Database, color: "text-red-600" },
   { name: "GraphQL", icon: SiGraphql, color: "text-pink-600" },
+  { name: "Git", icon: SiGit, color: "text-pink-600" },
+  { name: "GitHub", icon: SiGithub, color: "text-pink-600" },
   { name: "AWS Lambda", icon: FaAws, color: "text-orange-500" },
-  { name: "AWS CloudWatch", icon: Activity, color: "text-emerald-500" }
+  { name: "AWS CloudWatch", icon: Activity, color: "text-emerald-500" },
+  { name: "Vercel Deployment", icon: SiVercel, color: "text-slate-950 dark:text-white" }
 ];
 
 export default function Skills() {
