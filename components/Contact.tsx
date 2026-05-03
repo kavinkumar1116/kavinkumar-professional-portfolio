@@ -38,9 +38,9 @@ export default function Contact() {
               <p className="section-kicker">Contact</p>
               <h2 className="section-title">Let’s build something useful and polished.</h2>
               <p className="mt-5 max-w-xl text-lg leading-8 text-slate-700 dark:text-slate-300">
-                Available for conversations around SaaS product development,
+                {/* Available for conversations around SaaS product development,
                 BigCommerce engineering, storefront performance, and full-stack
-                application builds.
+                application builds. */}
               </p>
             </div>
             <div className="grid gap-3">

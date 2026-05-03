@@ -10,16 +10,16 @@ const projects = [
     description:
       "Role-based HR platform covering employee records, leave workflows, attendance tracking, and operational dashboards.",
     points: ["RBAC system", "Employee management", "Leave & attendance modules", "Real-time dashboards"],
-    stack: ["React.js", "PHP", "PostgreSQL", "RBAC"],
-    link: "https://github.com/kavinkumar1116"
+    stack: ["React.js", "PHP", "MSSQL", "RBAC"],
+   
   },
   {
     title: "Inventory Management System",
     description:
       "Inventory operations product with live stock visibility, alerting, approval flows, and reporting for smarter decisions.",
     points: ["Real-time stock tracking", "Low-stock alerts", "Reporting dashboard", "Approval workflows"],
-    stack: ["Next.js", "MSSQL", "GraphQL", "Dashboards"],
-    link: "https://github.com/kavinkumar1116"
+    stack: ["Next.js", "MSSQL", "Dashboards", "RBAC"],
+     
   },
   {
     title: "E-commerce Website",
@@ -27,15 +27,15 @@ const projects = [
       "Complete commerce experience with product discovery, checkout, payment integrations, and admin management tools.",
     points: ["Product listing & filtering", "Cart & checkout", "Razorpay, GPay, PhonePe", "Admin dashboard"],
     stack: ["React.js", "JavaScript", "Payments", "Admin"],
-    link: "https://github.com/kavinkumar1116"
+     
   },
   {
     title: "BigCommerce SaaS Development",
     description:
       "Product enhancements and theme engineering focused on merchant experience, storefront quality, and workflow speed.",
     points: ["SaaS product enhancements", "Theme development", "Merchant experience optimization"],
-    stack: ["BigCommerce", "Next.js", "AWS Lambda", "CloudWatch"],
-    link: "https://github.com/kavinkumar1116"
+    stack: ["BigCommerce", "Next.js","GraphQL", "AWS Lambda", "CloudWatch"],
+     
   }
 ];
 
@@ -73,7 +73,7 @@ export default function Projects() {
                   </h3>
                   <a
                     aria-label={`${project.title} GitHub`}
-                    href={project.link}
+                    
                     target="_blank"
                     rel="noreferrer"
                     className="grid size-10 shrink-0 place-items-center rounded-full bg-slate-950/[0.04] text-slate-700 transition hover:bg-blue-600 hover:text-white dark:bg-white/[0.08] dark:text-slate-200"
