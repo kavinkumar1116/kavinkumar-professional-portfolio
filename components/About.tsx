@@ -11,13 +11,13 @@ export default function About() {
           </div>
           <div className="glass-panel rounded-[1.75rem] p-6 sm:p-8">
             <p className="text-lg leading-8 text-slate-700 dark:text-slate-300">
-              I’m a Full-Stack Developer with 3+ years of experience specializing
-              in building scalable SaaS applications and high-performance
-              BigCommerce product solutions.
+              I’m a Full-Stack Developer with 3 years of experience specializing
+              in building scalable applications and high-performance
+              E-Commerce product solutions.
             </p>
             <p className="mt-5 text-lg leading-8 text-slate-700 dark:text-slate-300">
               I focus on performance, usability, and business impact. Currently
-              working on BigCommerce SaaS products and theme libraries, improving
+              working on E-Commerce SaaS products and theme libraries, improving
               merchant experience and optimizing eCommerce workflows.
             </p>
           </div>
