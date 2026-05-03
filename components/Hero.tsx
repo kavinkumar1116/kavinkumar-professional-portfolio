@@ -6,8 +6,6 @@ import { useEffect, useMemo, useState } from "react";
 
 const roles = [
   "Full Stack Developer",
-  "BigCommerce Product Developer",
-  "SaaS Builder"
 ];
 
 export default function Hero() {
@@ -67,7 +65,7 @@ export default function Hero() {
             <span className="ml-1 inline-block h-7 w-0.5 translate-y-1 bg-blue-600 dark:bg-sky-300" />
           </div>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
-            I create scalable SaaS applications and high-performance BigCommerce
+            I create scalable SaaS applications and high-performance E-Commerce
             product solutions with a sharp focus on performance, usability, and
             business outcomes.
           </p>
@@ -90,7 +88,7 @@ export default function Hero() {
               Contact
               <Mail size={17} />
             </motion.a>
-            <motion.a
+            {/* <motion.a
               whileHover={{ y: -2, scale: 1.015 }}
               whileTap={{ scale: 0.98 }}
               href="/Kavinkumar-A-Resume.txt"
@@ -99,7 +97,7 @@ export default function Hero() {
             >
               Resume
               <Download size={17} />
-            </motion.a>
+            </motion.a> */}
           </div>
         </motion.div>
 
@@ -117,7 +115,18 @@ export default function Hero() {
                     Current Focus
                   </p>
                   <h2 className="mt-1 text-2xl font-bold text-slate-950 dark:text-white">
-                    BigCommerce SaaS Products
+                    E-Commerce SaaS Products
+                  </h2>
+                </div>
+                <div className="rounded-full bg-emerald-500/12 px-3 py-1 text-xs font-bold text-emerald-600 dark:text-emerald-300">
+                  Active
+                </div>
+              </div>
+
+               <div className="mb-6 flex items-center justify-between">
+                <div>
+                  <h2 className="mt-1 text-2xl font-bold text-slate-950 dark:text-white">
+                    E-Commerce, HRMS, Inventory Management System 
                   </h2>
                 </div>
                 <div className="rounded-full bg-emerald-500/12 px-3 py-1 text-xs font-bold text-emerald-600 dark:text-emerald-300">
@@ -143,7 +152,7 @@ export default function Hero() {
 
               <div className="mt-6 grid grid-cols-3 gap-3">
                 {[
-                  ["3+", "Years"],
+                  ["3", "Years"],
                   ["9", "Core Skills"],
                   ["4", "Projects"]
                 ].map(([value, label]) => (
