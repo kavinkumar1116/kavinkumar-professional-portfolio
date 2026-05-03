@@ -139,7 +139,7 @@ export default function Hero() {
                   "Theme library engineering",
                   "Merchant workflow optimization",
                   "Scalable SaaS application architecture",
-                  "Performance-first eCommerce experiences"
+                  "Performance eCommerce experiences"
                 ].map((item) => (
                   <div
                     key={item}
